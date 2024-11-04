@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="dashbord.css">
+</head>
+<body>
+    <header>
+        <div class="logo">AMS</div>
+        <nav class="navigation">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Goals</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <select>
+                <option value="@Username" selected hidden>@Username</option>
+                <a href="bidding.html"><option value="Bidding">Bidding</option></a>
+                <a href="dashboard.html"><option value="Dashboard">Dashboard</option></a>
+                <a href="index.html"><option value="Logout">Logout</option></a>
+            </select>
+        </nav>
+    </header>
+
+    <div class="container">
+        <aside class="aside-bar">
+            <ul>
+                <li><a href="#">Dashboard</a></li>
+                <li><a href="#">My Bids</a></li>
+                <li><a href="#">Upload Products</a></li>
+                <li><a href="#">Submit a bid</a></li>
+            </ul>
+        </aside>
+        <main>
+            <div class="top">
+                <div class="email">Email <br> user100500@gmail.com</div>
+                <div class="earnings">My Earnings <br> $ 0.00</div>
+            </div>
+            <div class="top">
+                <div class="email">Total Bids <br> 0</div>
+                <div class="email">My Products <br> 1</div>
+            </div>
+            <div class="top">
+                <div class="email">Pending Results <br> 0</div>
+                <div class="email">Winner in <br> 0</div>
+            </div>
+        </main>
+    </div>
+
+    <footer>
+        <p>Auction Management System</p>
+    </footer>
+</body>
+</html>
